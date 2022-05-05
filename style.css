@@ -1,0 +1,68 @@
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+html{
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    width:80%;
+    margin:20vh auto;
+}
+.container,form{
+    background-color: aliceblue;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    margin:1em;
+}
+input,button{
+
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.cold{
+    color: aqua;
+}
+.coldBackground{
+    background-color: aqua;
+}
+.warm{
+    color: red;
+}
+.warmBackground{
+    background-color: red;
+}
+.winBackground{
+    background-color: green;
+}
+.win{
+    color: green;
+}
+
+.listOfTurns{
+    padding: 0;
+    list-style-type: none;
+}
+
+.numOfGuesses{
+    font-size: 1.4em;
+}
+.hideButton{
+    display: none;
+}
+
+@media (min-width:1000px){
+    main{
+        width:60%;
+    }
+
+}
